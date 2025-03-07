@@ -200,7 +200,7 @@
         "baseModel": "poe_canvas_builder_bot",
         "tokens": 200000,
         "endpoints": ["/v1/chat/completions"],
-        "premium_model": true,
+        "premium_model": false,
         "object": "model",
         "owned_by": "anthropic"
     },
