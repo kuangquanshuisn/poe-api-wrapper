@@ -196,7 +196,14 @@
         "object": "model",
         "owned_by": "anthropic"
     },
-
+    "claude-3.7-sonnet": {
+        "baseModel": "poe_canvas_builder_bot",
+        "tokens": 200000,
+        "endpoints": ["/v1/chat/completions"],
+        "premium_model": true,
+        "object": "model",
+        "owned_by": "anthropic"
+    },
     "gemini-1.5-pro": {
         "baseModel": "gemini_1_5_pro",
         "tokens": 4000,
